@@ -1,0 +1,43 @@
+#projekti{
+    padding: 30px 30px 0px 20px;
+    font-size: 20px;
+    background: $primarna;
+}
+#myprojects{
+    color: #fff;
+}
+.projekti-lista{
+    @include flexAround();
+    margin-top: 50px;
+}
+.projekti-lista { 
+    padding-bottom: 20px;
+    #hunters-lodge{
+        img{
+        width: 493px;
+        }
+    }
+    div{
+    background: $primarna;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: background 0.5s, transform 0.5s;
+    cursor: pointer;
+    @include flexAround();     
+        img{
+            height: 250px;
+            position: relative;
+            display: block;
+            border-radius: 10px;
+        }
+    }
+}
+.projekti-lista div:hover{
+    background: #fff;  
+    transform: translateY(-10px);
+    color: #fff;
+    transition: 0.5s;
+}

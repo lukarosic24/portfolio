@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1380px){
+    .navbar #tabs{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .navbar #tabs{
+        width: 70%;
+    }
+    #omeni{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .navbar #tabs{
+        width: 100%;
+    }
+    .navbar #logoholder{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .navbar #logoholder .logo{ 
+        position: relative;
+        left: 42%;
+        margin-left: 0px;
+
+    }
+}
+@media only screen and (max-width: 680px){
+    .navbar #tabs{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 623px){
+    .projekti-lista div{
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .projekti-lista div img{
+        width: 350px;
+    }
+    .projekti-lista #hunters-lodge img{
+        width: 350px;
+    }
+    #socialmedia{
+        margin-left: 48px;
+    }
+}
+@media only screen and (max-width: 640px){
+   .navbar #tabs ul li a{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .projekti-lista div{
+        padding: 0px;
+        padding-bottom: 20px;
+        width: 99%;
+    }
+    .projekti-lista div img{
+        width: 100%;
+    }
+    .projekti-lista #hunters-lodge a{
+        width: 100%;
+    }
+    .projekti-lista #hunters-lodge a img{
+        width: 100%;
+    }
+    .projekti-lista div:hover{
+        transform: translateY(0px);
+        background-color: transparent;
+    }
+}
+@media only screen and (max-width: 697px){
+    .abtme{
+        height: 150vh;
+    }
+    #pfp{
+        width: 290px;
+        padding-right: 0px; 
+    }
+    #pfp img{
+        width: 200px;
+    }
+    #omeni{
+        width: 90%;
+    }
+    #sass a{
+        font-size: 30px;
+    }
+    #sitemap a{
+        font-size: 30px;
+    }
+    #githubicon i{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 475px){
+    .navbar #tabs ul li a{
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 703px){
+    .kontakR{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 388px){
+    .brut{
+        margin: 0px auto;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 440px){
+    .footholder{
+        flex-direction: column;
+
+    }
+}

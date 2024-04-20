@@ -1,0 +1,87 @@
+#kontakt{
+    background: #fff;
+}
+#my-contact{
+    color: $primarna;
+    padding-left: 20px;
+    font-size: 42px;
+}
+.red{
+    padding-bottom: 20px;
+    @include flexAround();
+    p{
+        color: $primarna;
+    }
+}
+.kontaktL{
+
+    width: 300px;
+    p{
+        padding: 10px;
+        font-size: 20px;
+    }
+    #socialmedia{
+        margin-left: 90px;
+        padding: 10px 20px 20px 20px;
+        font-size: 40px;
+        a{
+            color: $primarna;
+        }
+    }
+}
+.kontakR{
+    form{
+        width: 90%;
+    }
+    width: 600px;
+    input{
+        font-weight: bold;
+        width: 100%;
+    }
+    textarea{
+        font-weight: bold;
+        width: 100%;
+    }
+}
+.kontaktL p{
+    margin-top: 30px;
+}
+.dugme{
+    display: block;
+    width: fit-content;
+    border: 2px solid $primarna;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: #fff;
+    text-decoration: none;
+    color: $primarna;
+    transition: background 0.7s;
+    cursor: pointer; 
+}
+.dugme:hover{
+    background: $primarna;
+    color:#fff;
+}
+form input, form textarea{
+    font-family: "Protest Revolution", sans-serif;
+    width: 100%;
+    border: 1px solid $primarna;
+    outline: none;
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    color: $primarna;
+    border-radius: 10px;
+    font-size: 15px;
+}
+::placeholder{
+    color: $primarna;
+}
+form dugme{
+    padding: 15px 60px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}

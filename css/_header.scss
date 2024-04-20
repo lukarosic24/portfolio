@@ -1,0 +1,78 @@
+
+.navbar{
+    background-color: $primarna;
+    padding: 20px 0px;
+    @include flexBetween();
+    #logoholder{
+        width: 20%;
+    }
+    .logo{
+        margin-left: 50px;
+        font-family: "Protest Revolution", sans-serif;
+        font-size: 50px;
+        padding: 20px;
+        text-decoration: none;
+        color: $primarna;
+        background-color: #fff;
+        border-radius: 50%;
+        font-weight: 700;
+    }
+    #tabs{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+            ul{
+                width: 100%;
+                padding-right: 20px;
+                @include flexBetween();
+                li{
+                            a{
+                                text-decoration: none;
+                                color: $primarna;
+                                cursor:pointer;
+                                position:relative;
+                                padding:10px 20px;
+                                background:white;
+                                font-size:28px;
+                                border-top-right-radius:10px;
+                                border-bottom-left-radius:10px;
+                                transition:all 1s;
+                                &:after,&:before{
+                                    content:" ";
+                                    width:10px;
+                                    height:10px;
+                                    position:absolute;
+                                    border :0px solid #fff;
+                                    transition:all 1s;
+                                    }
+                                &:after{
+                                    top:-1px;
+                                    left:-1px;
+                                    border-top:5px solid black;
+                                    border-left:5px solid black;
+                                }
+                                &:before{
+                                    bottom:-1px;
+                                    right:-1px;
+                                    border-bottom:5px solid black;
+                                    border-right:5px solid black;
+                                }
+                                &:hover{
+                                    border-top-right-radius:0px;
+                                border-bottom-left-radius:0px;
+                                    // background:rgba(0,0,0,.5);
+                                    // color:white;
+                                    &:before,&:after{
+                                    
+                                    width:100%;
+                                    height:100%;
+                                    // border-color:white;
+                                    }
+                                }
+                                                }
+                                    }
+                                }
+                        }
+}
