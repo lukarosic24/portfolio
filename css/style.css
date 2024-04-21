@@ -470,5 +470,6 @@ form dugme {
   color: #fff;
   #github #githubicon a{
     color: #fff;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=style.css.map */
