@@ -468,12 +468,8 @@ form dugme {
 #github #githubicon {
   font-size: 50px;
   color: #fff;
-  #github #githubicon a{
-    color: #fff;
-    text-decoration: none;
-  }
-    #github #githubicon a i{
-    color: #fff;
-    text-decoration: none;
-  }
+  
+  #github #githubicon a {
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
